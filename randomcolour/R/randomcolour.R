@@ -33,6 +33,5 @@ randomcolour <- function()
 #' randomcolor()
 #'
 #' @export
-randomcolor <- function(...) {
-  randomcolour(...)
-}
+randomcolor <- randomcolour
+
