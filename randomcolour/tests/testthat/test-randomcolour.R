@@ -1,7 +1,7 @@
 # R 3.6.0 introduced changes to discrete uniform sampling
 # used in sampling. To ensure consistency in testing across
 # R versions, fix RNG version to that of 3.5.0 for tests:
-suppressWarnings(RNGversion("3.5.0"))
+suppressWarnings(RNGversion("3.4.0"))
 
 test_that("random colours generated", {
   expect_equal({
