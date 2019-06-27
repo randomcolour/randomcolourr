@@ -1,12 +1,14 @@
 Package: randomcolour
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Random colour generation and presentation
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Authors@R: as.person(c(
+    "Matt Malin <matt@randomcolour.com> [aut, cre]", 
+    "Jonathan Ng <> [aut]"
+  ))  
+Description: Random colour generation in R, for use in anywhere colours are needed.
+Depends: R (>= 3.4.0)
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Suggests: 
