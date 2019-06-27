@@ -2,9 +2,12 @@
 % Please edit documentation in R/randomcolour.R
 \name{randomcolour}
 \alias{randomcolour}
+\alias{randomcolor}
 \title{Generate a random colour}
 \usage{
 randomcolour()
+
+randomcolor()
 }
 \value{
 A hexidecimal string of form #XXXXXX representing a random colour across the 24 bit colour range.
@@ -15,7 +18,16 @@ as a hexidecimal string of appropriate format.
 \description{
 Generate a random colour
 }
+\section{Functions}{
+\itemize{
+\item \code{randomcolour}: main function
+
+\item \code{randomcolor}: alternative spelling, calls randomcolour()
+}}
+
 \examples{
 randomcolour()
+
+randomcolor()
 
 }

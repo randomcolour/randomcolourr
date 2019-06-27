@@ -5,6 +5,7 @@
 #' Mimics the randomcolour.com approach for selecting a random integer between 0 and 1677715 and expressing
 #' as a hexidecimal string of appropriate format.
 #'
+#' @describeIn randomcolour main function
 #' @examples
 #' randomcolour()
 #'
@@ -21,3 +22,17 @@ randomcolour <- function()
   return(hex_colour)
 }
 
+
+#' @section Aliases
+#' randomcolour is the standard spelling throughout the package, though
+#' is also available to call through randomcolor
+#'
+#' @describeIn randomcolour alternative spelling, calls randomcolour()
+#' @usage randomcolor()
+#' @examples
+#' randomcolor()
+#'
+#' @export
+randomcolor <- function(...) {
+  randomcolour(...)
+}

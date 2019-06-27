@@ -24,4 +24,19 @@ test_that("random colours generated", {
       randomcolour() == randomcolour()
     },
     label = "non-repetition")
+
+  expect_equal(
+    {
+      set.seed(42)
+      randomcolour()
+    },
+    {
+      set.seed(42)
+      randomcolor()
+    },
+    label = "randomcolour and randomcolor identical"
+
+  )
 })
+
+
