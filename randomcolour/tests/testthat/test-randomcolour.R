@@ -2,13 +2,14 @@
 # used in sampling. To ensure consistency in testing across
 # R versions, fix RNG version to that of 3.5.0 for tests:
 suppressWarnings(RNGversion("3.4.0"))
+context("randomcolour")
 
 test_that("random colours generated", {
   expect_equal({
     set.seed(1)
     randomcolour()
   },
-  "#43F860",
+  "#43F860a",
   label = "non-padding example")
 
   expect_equal({
