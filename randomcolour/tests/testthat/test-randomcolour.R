@@ -1,20 +1,21 @@
-# Note below that RNG method specified away from default and
-# non-Mersenne Twister for reproducibility aross R versions,
-# due to Mersenne-Twister changing to use an updated version
+# R 3.6.0 introduced changes to discrete uniform sampling
+# used in sampling. To ensure consistency in testing across
+# R versions, fix RNG version to that of 3.5.0 for tests:
+suppressWarnings(RNGversion("3.5.0"))
 
 test_that("random colours generated", {
   expect_equal({
-    set.seed(1, kind = "Super-Duper")
+    set.seed(1)
     randomcolour()
   },
-  "#147A9D",
+  "#43F860",
   label = "non-padding example")
 
   expect_equal({
-    set.seed(98, kind = "Super-Duper") # known to give a hex code needing padding
+    set.seed(97) # known to give a hex code needing padding
     randomcolour()
   },
-  "#0CCCC8",
+  "#0A87AF",
   label = "padding example")
 
   expect_false(
