@@ -1,6 +1,14 @@
-# Generates a random 24 bit colour hex string
-# mimicks randomcolour.com approach of random integer between 0 and 16777215,
-# returns as hex string
+#' Generate a random colour
+#'
+#' @return A hexidecimal string of form #XXXXXX representing a random colour across the 24 bit colour range.
+#'
+#' Mimics the randomcolour.com approach for selecting a random integer between 0 and 1677715 and expressing
+#' as a hexidecimal string of appropriate format.
+#'
+#' @examples
+#' randomcolour()
+#'
+#' @export
 randomcolour <- function()
 {
   hex_value <- as.character.hexmode(sample(2^24, 1) - 1, 1)
@@ -12,3 +20,4 @@ randomcolour <- function()
 
   return(hex_colour)
 }
+
