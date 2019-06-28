@@ -1,2 +1,10 @@
 ^.*\.Rproj$
 ^\.Rproj\.user$
+^appveyor\.yml$
+^\.appveyor\.yml$
+^\.travis\.yml$
+^\.travis\.sh$
+^\.travis-tool\.sh\.cmd$
+^travis-tool\.sh\.cmd$
+^travis-tool\.sh$
+^codecov\.yml$
