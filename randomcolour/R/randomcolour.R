@@ -35,10 +35,3 @@ randomcolour <- function()
 #' @export
 randomcolor <- randomcolour
 
-#' randomcolour REST API endpoint
-
-#* @get /randomcolor
-#* @get /randomcolour
-function(){
-  list(color=randomcolor())
-}
