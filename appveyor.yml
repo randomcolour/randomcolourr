@@ -17,7 +17,7 @@ cache:
 before_build:
    ps: |
         cp ..\travis-tool.sh randomcolour\travis-tool.sh
-        cp travis-tool.sh.cmd randomcolour\travis-tools.sh.cmd
+        cp travis-tool.sh.cmd randomcolour\travis-tool.sh.cmd
         cd randomcolour
         bash -c "echo '^travis-tool\.sh\.cmd$' >> .Rbuildignore"
         
