@@ -8,7 +8,7 @@ test_that("random colours generated", {
     set.seed(1)
     randomcolour()
   },
-  "#ShouldFail",
+  "#43F860",
   label = "non-padding example")
 
   expect_equal({

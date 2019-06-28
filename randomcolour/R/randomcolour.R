@@ -19,6 +19,9 @@ randomcolour <- function()
     paste0(rep("0", times = 6 - nchar(hex_value)), collapse = ""),
     toupper(hex_value))
 
+  if(FALSE) {
+    will_never_get_here()
+  }
   return(hex_colour)
 }
 
