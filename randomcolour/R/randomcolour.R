@@ -23,10 +23,6 @@ randomcolour <- function()
 }
 
 
-#' @section Aliases
-#' randomcolour is the standard spelling throughout the package, though
-#' is also available to call through randomcolor
-#'
 #' @describeIn randomcolour alternative spelling, calls randomcolour()
 #' @usage randomcolor()
 #' @examples
