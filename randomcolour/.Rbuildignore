@@ -5,3 +5,5 @@
 ^\.travis\.yml$
 ^\.travis\.sh$
 ^\.travis-tool\.sh\.cmd$
+^travis-tool\.sh\.cmd$
+^travis-tool\.sh$
