@@ -12,5 +12,6 @@ License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Suggests: 
-    testthat
+    covr,
+	testthat	
 RoxygenNote: 6.1.1
