@@ -1,4 +1,4 @@
-[![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/mattmalin/randomcolourr?branch=master&svg=true)](https://ci.appveyor.com/project/mattmalin/randomcolourr) 
+[![Build status](https://ci.appveyor.com/api/projects/status/s3cnwbiafy6ajk4x/branch/master?svg=true)](https://ci.appveyor.com/project/mattmalin/randomcolourr/branch/master) 
 [![Build Status](https://www.travis-ci.com/randomcolour/randomcolourr.svg?branch=master)](https://www.travis-ci.com/randomcolour/randomcolourr) 
 [![codecov](https://codecov.io/gh/randomcolour/randomcolourr/branch/master/graph/badge.svg)](https://codecov.io/gh/randomcolour/randomcolourr)
 
