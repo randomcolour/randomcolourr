@@ -1,0 +1,32 @@
+---
+title: "Generate a random colour"
+author: "Jonathan Ng"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Vignette Title}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+## Generate a random colour
+
+Colour returned in hexidecimal format #6600CC
+
+```{r}
+randomcolour()
+```
+
+or
+
+```{r}
+randomcolor()
+```
+

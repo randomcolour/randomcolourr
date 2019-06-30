@@ -1,3 +1,12 @@
+#' @details
+#' randomcolour: A package for exploring the techniques and best practices
+#' in R through the minimal example of random colour generation.
+#'
+#' To learn more about randomcolour, start with the vignettes:
+#' `browseVignettes(package = "randomcolour")`
+#' @keywords internal
+"_PACKAGE"
+
 #' Generate a random colour
 #'
 #' @return A hexidecimal string of form #XXXXXX representing a random colour across the 24 bit colour range.
