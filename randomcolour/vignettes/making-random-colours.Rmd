@@ -4,7 +4,7 @@ author: "Jonathan Ng"
 date: "`r Sys.Date()`"
 output: rmarkdown::html_vignette
 vignette: >
-  %\VignetteIndexEntry{Vignette Title}
+  %\VignetteIndexEntry{Introduction to randomcolour}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
@@ -22,12 +22,14 @@ library(randomcolour)
 Colour returned in hexidecimal format #6600CC
 
 ```{r}
-randomcolour()
+set.seed(97)
+randomcolour::randomcolour()
 ```
 
 or
 
 ```{r}
-randomcolor()
+set.seed(97)
+randomcolour::randomcolor()
 ```
 
