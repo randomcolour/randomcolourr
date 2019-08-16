@@ -2,6 +2,7 @@
 % Please edit documentation in R/randomcolour.R
 \docType{package}
 \name{randomcolour-package}
+\alias{randomcolour}
 \alias{randomcolour-package}
 \title{randomcolour: Random colour generation and presentation}
 \description{
