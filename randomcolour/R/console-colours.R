@@ -6,12 +6,15 @@ library(crayon)
 
 randomcolour_message <- function(msg) {
   colour <- randomcolour()
+
+  if(missing(msg)) msg <- colour
   coloured_message <- make_style(colour)
 
-  cat(coloured_message(paste0(msg)))
+  cat(coloured_message(msg))
 }
 
 message_rc <- randomcolour_message
 
-
-
+randomcolour_crayon <- function() {
+  randomcolour_message()
+}
