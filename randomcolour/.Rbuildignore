@@ -1,3 +1,5 @@
+^docs$
+^_pkgdown\.yml$
 ^.*\.Rproj$
 ^\.Rproj\.user$
 ^appveyor\.yml$
@@ -8,3 +10,4 @@
 ^travis-tool\.sh\.cmd$
 ^travis-tool\.sh$
 ^codecov\.yml$
+^README\.Rmd$
