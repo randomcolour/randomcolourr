@@ -18,3 +18,21 @@ message_rc <- randomcolour_message
 randomcolour_crayon <- function() {
   randomcolour_message()
 }
+
+
+randomcolour_better <- function()
+{
+  hex_value <- as.character.hexmode(sample(2^24, 1) - 1, 1)
+
+  hex_colour <- paste0(
+    "#",
+    paste0(rep("0", times = 6 - nchar(hex_value)), collapse = ""),
+    toupper(hex_value))
+
+  if (requireNamespace("crayon", quietly=TRUE)) {
+    cat(make_style(hex_colour)(hex_colour))
+    return(invisible(hex_colour))
+  } else {
+    return(hex_colour)
+  }
+}
