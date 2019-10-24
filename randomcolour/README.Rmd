@@ -1,10 +1,9 @@
----
-title: "Untitled"
-output: github_document
----
+# randomcolour R package
+An R package generating random colour examples across R functionality.
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+Designed as a lighthearted package with a single focus.
+
+## Examples
+```r
+randomcolour()
 ```
-
-## GitHub Readme

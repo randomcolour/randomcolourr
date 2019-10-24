@@ -10,3 +10,4 @@
 ^travis-tool\.sh\.cmd$
 ^travis-tool\.sh$
 ^codecov\.yml$
+^README\.Rmd$

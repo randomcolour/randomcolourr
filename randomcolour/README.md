@@ -1,4 +1,9 @@
-Untitled
-================
+# randomcolour R package
+An R package generating random colour examples across R functionality.
 
-## GitHub Readme
+Designed as a lighthearted package with a single focus.
+
+## Examples
+```r
+randomcolour()
+```

@@ -1,6 +1,6 @@
 ---
 title: "Generate a random colour"
-author: "Jonathan Ng"
+author: "Jonathan Ng, Matt Malin"
 date: "`r Sys.Date()`"
 output: rmarkdown::html_vignette
 vignette: >
