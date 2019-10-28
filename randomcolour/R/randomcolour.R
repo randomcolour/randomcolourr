@@ -24,3 +24,9 @@ randomcolour <- function(size=1)
 #' @export
 randomcolor <- randomcolour
 
+randomcolourise <- function(dt)
+{
+  # Currently only works with dataframes
+  dt <- as.data.frame(dt)
+  return(dplyr::transmute_all(dt,~randomcolor(nrow(dt))))
+}
