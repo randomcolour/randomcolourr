@@ -1,6 +1,6 @@
 Package: randomcolour
 Type: Package
-Title: Random colour generation and presentation
+Title: Random Colour Generation and Presentation
 Version: 0.1.0
 Authors@R: as.person(c(
     "Matt Malin <matt@randomcolour.com> [aut, cre]", 
