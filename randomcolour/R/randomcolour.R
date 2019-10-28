@@ -12,7 +12,7 @@
 #' @export
 randomcolour <- function(size=1)
 {
-  return(paste0("#",format(as.hexmode(sample(2^24, size)),upper.case=TRUE)))
+  return(paste0("#",format(as.hexmode(sample(2^24, size)-1),width=6,upper.case=TRUE)))
 }
 
 
