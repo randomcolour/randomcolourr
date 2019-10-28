@@ -2,10 +2,9 @@ Package: randomcolour
 Type: Package
 Title: Random Colour Generation and Presentation
 Version: 0.1.0
-Authors@R: as.person(c(
-    "Matt Malin <matt@randomcolour.com> [aut, cre]", 
-    "Jonathan Ng <jonathan@datastrategywithjonathan.com> [aut]"
-  ))  
+Authors@R: c(
+    person("Matt", "Malin", email = "matt@randomcolour.com", role = c("aut","cre")),
+    person("Jonathan", "Ng", email = "jonathan@datastrategywithjonathan.com", role = "aut"))
 Description: Random colour generation in R, for use in anywhere colours are needed.
 Depends: R (>= 3.4.0)
 License: MIT + file LICENSE
