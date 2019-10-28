@@ -10,16 +10,9 @@
 #' randomcolour()
 #'
 #' @export
-randomcolour <- function()
+randomcolour <- function(size=1)
 {
-  hex_value <- as.character.hexmode(sample(2^24, 1) - 1, 1)
-
-  hex_colour <- paste0(
-    "#",
-    paste0(rep("0", times = 6 - nchar(hex_value)), collapse = ""),
-    toupper(hex_value))
-
-  return(hex_colour)
+  return(paste0("#",as.hexmode(sample(2^24, size)) %>% format(upper.case=TRUE)))
 }
 
 
